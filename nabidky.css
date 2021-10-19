@@ -1,0 +1,61 @@
+
+.palmy {
+	background-image: url(podklady/palmy.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 1/3;
+	aspect-ratio: 4/2;
+}
+
+.jezero {
+	display: flex;
+	background-image: url(podklady/jezero.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	grid-column: 2;
+	grid-row: 1;
+}
+
+.kolo {
+	display: flex;
+	background-image: url(podklady/nakole.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	grid-column: 2;
+	grid-row: 2;
+}
+
+.lodicka {
+	background-image: url(podklady/lodicka.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	grid-column: 2/4;
+	grid-row: 1/4;
+}
+
+.canyon {
+	background-image: url(podklady/podkova.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	grid-column: 1;
+	grid-row: 1;
+	aspect-ratio: 4/2;
+	width: 100%;
+}
+
+.kanary {
+	background-image: url(podklady/zatoka.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	grid-column: 1;
+	grid-row: 2;
+	aspect-ratio: 4/2;
+}
+

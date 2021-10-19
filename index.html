@@ -1,69 +1,163 @@
 <!DOCTYPE html>
 <html lang="cs">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cestovka</title>
-</head>
-
-<body>
-	Last minute
-	Destinace
-	Časté otázky
-
-	17 600 Kč
-	Pohoda pod palmami
-	Nejlepší dovolená pro nejvíc nejlínější lidi na světě
-
-	8 490 Kč
-	Klid u jezera
-
-	4 990 Kč
-	Výlet na kole
-
-	Podpora na místě
-	V cílové destinaci jsou k dispozici naši delegáti, kteří vám vždy rádi poradí.
-
-	Služby na letišti
-	Při odletu tam i zpět za vás odbavíme vaše zavadla. Na letišti nebudete čekat.
-
-	Do celého světa
-	Nabízíme pravidelné slevy na vybraných destinací na všech kontinentech.
-
-	Vaše bezpečí
-	Není-li v cílové destinaci v čase odletu bezpečno, vrátíme vám peníze.
-
-	Last minute zájezdy
-
-	18 500 Kč
-	Grand Canyon
-
-	8 900 Kč
-	Pěšky po Kanárských ostrovech
-
-	15 900 Kč
-	Romantika u horského jezera
-	Dechberoucí výhledy na horské štíty a zrcadlovou hladinu jezera.
-
-	Novinky
-
-	15. 8. 2020
-	Magický Zanzibar
-	Zanzibar, při vyslovení jména tohoto kouzelného ostrova, se vybaví vůně exotických koření, příznivé klima, teplé moře,
-	exotická flóra i fauna.
-
-	31. 9. 2020
-	Návrat českých občanů ze zahraničí
-	Všichni občané ČR vracející se ze zahraničí zpět se musí řídit podmínkami uvedenými v platném Ochranném opatření
-	Ministerstva zdravotnictví ČR.
-
-	6. 10. 2020
-	Na Kubu s PCR testem
-	Při vstupu do země se buď musíte prokázat negativním PCR testem na Covid-19, který byl proveden max. 72 hodin před
-	příletem do destinace.
-
-	©2021, Czechitas
-</body>
-
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <title>Cestovka</title>
+   </head>
+   <body>
+      <header class="hlavicka">
+         <img src="podklady/logo.svg" alt="logo">
+         <nav class="menu">
+            <ul>
+               <li><a href="#last">Last minute</a></li>
+               <li><a href="https://www.csa.cz/cz-cs/destinace/">Destinace</a></li>
+               <li><a href="https://www.csa.cz/cz-cs/podpora/">Časté otázky</a></li>
+            </ul>
+         </nav>
+      </header>
+      <section class="nabidka">
+         <div class="karta__velka palmy">
+            <p class="karta__cena">17&nbsp;600&nbsp;Kč</p>
+            <div class="karta__popis">
+               <h3 class="karta__titulek">
+                  Pohoda pod palmami
+               </h3>
+               <p class="karta__popisek">
+                  Nejlepší dovolená pro nejvíc nejlínější lidi na světě
+               </p>
+            </div>
+         </div>
+         <div class="karta__mala jezero">
+            <p class="karta__cena">8&nbsp;490&nbsp;Kč</p>
+            <h3 class="karta__titulek">
+               Klid u jezera
+            </h3>
+         </div>
+         <div class="karta__mala kolo">
+            <p class="karta__cena">4&nbsp;990&nbsp;Kč</p>
+            <h3 class="karta__titulek">
+               Výlet na kole
+            </h3>
+         </div>
+      </section>
+      <section class="sluzby">
+         <div class="karta__seda podpora">
+            <img src="podklady/map.svg" alt="ikona mista">
+            <h3 class="karta__seda__nadpis">
+               Podpora na místě
+            </h3>
+            <p class="karta__seda__popis">
+               V cílové destinaci jsou k dispozici naši delegáti, kteří vám vždy rádi poradí.
+            </p>
+         </div>
+         <div class="karta__seda letiste">
+            <img src="podklady/plane.svg" alt="ikona letadla">
+            <h3 class="karta__seda__nadpis">
+               Služby na letišti
+            </h3>
+            <p class="karta__seda__popis">
+               Při odletu tam i zpět za vás odbavíme vaše zavadla. Na letišti nebudete čekat.
+            </p>
+         </div>
+         <div class="karta__seda svet">
+            <img src="podklady/globe.svg" alt="ikona globus">
+            <h3 class="karta__seda__nadpis">
+               Do celého světa
+            </h3>
+            <p class="karta__seda__popis">
+               Nabízíme pravidelné slevy na vybraných destinací na všech kontinentech.
+            </p>
+         </div>
+         <div class="karta__seda bezpeci">
+            <img src="podklady/shield.svg" alt="ikona stitu">
+            <h3 class="karta__seda__nadpis">
+               Vaše bezpečí
+            </h3>
+            <p class="karta__seda__popis">
+               Není-li v cílové destinaci v čase odletu bezpečno, vrátíme vám peníze.
+            </p>
+         </div>
+      </section>
+      <div class="nazev-skupiny">
+         <h2 class="nazev-skupiny__titulek">
+            Last minute zájezdy
+         </h2>
+      </div>
+      <section class="last_minute" id="last" >
+         <div class="karta__mala canyon">
+            <p class="karta__cena">18&nbsp;500&nbsp;Kč</p>
+            <h3 class="karta__titulek">
+               Grand Canyon
+            </h3>
+         </div>
+         <div class="karta__mala kanary">
+            <p class="karta__cena">8&nbsp;900&nbsp;Kč</p>
+            <h3 class="karta__titulek">
+               Pěšky po Kanárských ostrovech
+            </h3>
+         </div>
+         <div class="karta__velka lodicka">
+            <p class="karta__cena">15&nbsp;900&nbsp;Kč</p>
+            <div class="karta__popis">
+               <h3 class="karta__titulek">
+                  Romantika u horského jezera
+               </h3>
+               <p class="karta__popisek">
+                  Dechberoucí výhledy na horské štíty a zrcadlovou hladinu jezera.
+               </p>
+            </div>
+         </div>
+      </section>
+      <div class="nazev-skupiny">
+         <h2 class="nazev-skupiny__titulek">
+            Novinky
+         </h2>
+      </div>
+      <section class="novinky">
+         <div class="karta__seda zanzibar">
+            <time class="karta__datum">
+            15. 8. 2020
+            </time>
+            <h3 class="karta__seda__nadpis">
+               Magický Zanzibar
+            </h3>
+            <p class="karta__popisek">
+               Zanzibar, při vyslovení jména tohoto kouzelného ostrova, se vybaví vůně exotických koření, příznivé klima, teplé moře,
+               exotická flóra i fauna.
+            </p>
+         </div>
+         <div class="karta__seda navrat">
+            <time class="karta__datum">
+            31. 9. 2020
+            </time>
+            <h3 class="karta__seda__nadpis">
+               Návrat českých občanů ze zahraničí
+            </h3>
+            <p class="karta__popisek">
+               Všichni občané ČR vracející se ze zahraničí zpět se musí řídit podmínkami uvedenými v platném Ochranném opatření
+               Ministerstva zdravotnictví ČR.
+            </p>
+         </div>
+         <div class="karta__seda kuba">
+            <time class="karta__datum">
+            6. 10. 2020
+            </time>
+            <h3 class="karta__seda__nadpis">
+               Na Kubu s PCR testem
+            </h3>
+            <p class="karta__popisek">
+               Při vstupu do země se buď musíte prokázat negativním PCR testem na Covid-19, který byl proveden max. 72 hodin před
+               příletem do destinace.
+            </p>
+         </div>
+      </section>
+      <footer>
+         ©2021, Czechitas
+      </footer>
+   </body>
 </html>

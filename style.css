@@ -1,0 +1,79 @@
+@import url(menu.css);
+@import url(karty.css);
+@import url(nabidky.css);
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+ :before,
+ :after {
+	box-sizing: inherit;
+}
+
+:root {
+	margin: 4em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+}
+
+.hlavicka {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: stretch;
+	margin-bottom: 2em;
+}
+
+
+
+.nabidka {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
+}
+
+
+.nazev-skupiny {
+	margin-top: 2.5em;
+	font-size: 1em;
+}
+
+.sluzby {
+	margin-top: 1em;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1;
+	grid-column-gap: 10px;
+}
+
+.novinky {
+	margin: 1em 0 2em 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1;
+	grid-column-gap: 10px;
+	font-weight: 500;
+}
+
+
+.last_minute {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
+}
+
+footer {
+	font-size: 1.2em;
+	text-shadow: ;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+	background-color: #444444;
+	padding: 1em;
+	text-shadow: 0 0 5px hsla(313, 76%, 53%, 0.972);
+}

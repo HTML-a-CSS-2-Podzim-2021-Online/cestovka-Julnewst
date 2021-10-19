@@ -1,0 +1,27 @@
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu ul li {
+	display: inline;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: red;
+	padding: 10px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: red;
+	padding: 1em;
+}
+
+.menu a:hover {
+	color: white;
+	background-color: red;
+}
+

@@ -1,0 +1,74 @@
+
+.karta__velka {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.karta__mala {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.karta__cena {
+	grid-row: 1;
+	margin: 1em;
+	padding: 1em;
+	color: white;
+	font-weight: 500;
+	background-color: red;
+	text-align: center;
+}
+
+.karta__popis,
+.karta__titulek {
+	margin: 1em;
+	color: white;
+	text-shadow: 0 0 4px hsla(0, 0%, 0%, 0.3);
+}
+
+.karta__velka h3 {
+	font-size: 2em;
+	margin: 0;
+}
+
+.karta__popisek {
+	font-weight: 600;
+}
+
+
+.karta__seda {
+	background-color: #F0F0F0;
+	text-align: center;
+	padding: 1.5em;
+}
+
+.karta__seda__nadpis {
+	color: red;
+	padding: 0.2em;
+}
+
+.novinky .karta__seda {
+	text-align: left;
+}
+
+
+footer {
+	font-size: 1.2em;
+	text-shadow: ;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+	background-color: #444444;
+	padding: 1em;
+	text-shadow: 0 0 5px hsla(313, 76%, 53%, 0.972);
+}
